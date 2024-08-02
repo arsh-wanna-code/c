@@ -1,0 +1,28 @@
+note : 
+'if (0)' does not work...
+hence logic operators are used to shorten the code and increase the readability
+eg.,
+
+
+if (a == 1)
+{
+    if (b == 1)
+    {
+        printf("true");
+    }
+}
+
+
+can be written as,
+
+
+if (a&&b)
+{
+    printf("true");
+}
+
+
+this works, as in the first code, printf works only when both a and b are true(1)
+the same works with the second code as && is the AND opperator,
+so if any of the a or b are false(0) the code doesn't execute.
+other logical opperators are || and ! which are OR and NOT opperators respectively.
