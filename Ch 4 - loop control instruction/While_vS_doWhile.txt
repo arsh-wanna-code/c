@@ -1,0 +1,8 @@
+while Loop: The condition is checked before the execution of the loop body. 
+            If the condition is false at the start, the loop body will not execute even once.
+            There is no guarantee that the loop body will execute even once if the condition is false initially.
+
+
+do-while Loop: The condition is checked after the execution of the loop body. 
+               Meaning the loop body will execute at least once, whether the condition is true or false initially.
+               The loop body is guaranteed to execute at least once as the condition is evaluated after the execution.           
