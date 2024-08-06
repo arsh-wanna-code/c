@@ -1,0 +1,1 @@
+printf("number is prime beetch!");
