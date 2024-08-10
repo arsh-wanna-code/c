@@ -1,1 +1,2 @@
-printf("number is prime beetch!");
+printf("guess the number!\n");
+    scanf("%d", &guessed);
