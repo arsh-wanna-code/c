@@ -4,6 +4,7 @@
 void area();
 void volume();
 void number();
+void conversion();
 int pi = 3.14159265359;
 int shape1;
 int shape2;
@@ -11,7 +12,7 @@ int main()
 {
     int calci;
 
-    printf("\n\n\nwhat do you want to calculate??\n1. number\n2. area\n3. volume\n\n\n");
+    printf("\n\n\nwhat do you want to calculate??\n1. number\n2. area\n3. volume\n4. unit converter\n\n\n");
     scanf("%d", &calci);
     
     switch (calci)
@@ -26,6 +27,10 @@ int main()
 
     case 3:
         volume();
+        break;
+
+    case 4:
+        conversion();
         break;
 
     default:
@@ -177,3 +182,37 @@ void volume()
     }
     }
 }
+void conversion()
+    {printf("O ji LOL!\nassi code to likheya e nai\n\n\n");}
+/* 
+{
+   float value, result;
+    char unit[10], tounit[10];
+
+    printf("enter value:\n");
+    scanf("%d", &value);
+
+    printf("enter value's unit");
+    scanf(" %s", &unit);
+
+    printf("enter the desired unit");
+    scanf(" %s", &tounit);
+
+    result = convert(value, unit, tounit);
+    if (result != -1)
+    {
+        printf("%.2f %s = %.2f %s", value, unit, result, tounit);
+    }
+    else
+    {
+        printf("error bole HADIPPA!!!!\n\n\n");
+    }
+}  
+    float convert(float value, char unit[10], char tounit[10]);
+
+*/
+    
+
+    
+
+
