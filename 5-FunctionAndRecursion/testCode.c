@@ -5,3 +5,4 @@ int main(){
     printf("%d %d %d \n", a, ++a, a++);
     return 0;
 }
+// guess the output
